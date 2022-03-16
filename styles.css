@@ -200,7 +200,7 @@ footer {
 .friendly-2 {
     
    
-    
+    text-align: center;
     margin: 30px 0px;
    /*  box-sizing: content-box; */
     width: 100%;
@@ -211,18 +211,17 @@ footer {
 .text-block-2  {
 
     display: inline-block;
-    width: 50%;
 }
-
-.box-text-2 h2, p {
+/* 
+.box-text-2 h2 {
 
     text-align: left;
     margin-bottom: 20px;
     display: inline-block;
+    width: 50%;
     
     
-    
-    
+     */
 }
 
 .box-text-2 {
