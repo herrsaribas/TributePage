@@ -5,13 +5,16 @@
 }
 
 
-body h1, h2, h3, p {
+body {
     font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin: auto;
+    min-width: 650px;
+    color: #000;
 }
 
 
-.wrapper {
-
+header {
     background-color: #F2CB05;
 }
 
@@ -57,15 +60,64 @@ nav li a:link {
 
 nav li a:visited {
 
-    background-color: orange;
+    background-color: #fff;
+    
 }
 
 nav li a:hover {
 
-    background-color: orange;
+    background-color: #fff;
+    color: #F2CB05;
 }
 
 nav li a:active {
 
-    background-color: orange;
+    background-color: #fff;
+}
+
+main {
+
+    margin-left: 30px;
+}
+
+main img {
+    width:500px;
+    text-align: center;
+    margin: 10px auto;
+    display: block; 
+    border-radius: 5px;
+    border-left: 15px solid #572381;
+
+}
+
+
+.title {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 30px;
+}
+
+.sub-title {
+    text-align: center;
+}
+
+pre {
+
+    text-align: center;
+}
+
+h5 {
+    font-size: 1.5rem;
+    margin:20px auto;
+}
+
+footer {
+
+    background-color: #F2CB05;
+    margin-top: 30px;
+}
+
+footer h3 {
+
+    padding: 30px;
 }
